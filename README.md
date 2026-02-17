@@ -1,28 +1,27 @@
-1 # Web LAB -1 - Hello Project
-2
-3 ## Hakkinda
-4 Bu proje , Web Tasarimi ve Programlama dersi LAB -1 kapsaminda
-5 Vite + React + TypeScript kullanilarak olusturulmustur.
-6
-7 ## Gelistirici
-8 - **Ad Soyad :** [Kendi Adin]
-9 - ** Ogrenci No:** [Numaran]
-10
-11 ## Kullanilan Teknolojiler
-12 - React 18
-13 - TypeScript
-14 - Vite
-15
-16 ## Kurulum
-17 ```bash
-18 npm install
-19 ```
-20
-21 ## Calistirma
-22 ```bash
-23 npm run dev
-24 ```
-25 Tarayicida http :// localhost :5173 adresini ac.
-26
-27 ## Ekran Goruntusu
-28 (ekran goruntusunu buraya ekle)
+Web LAB-1: Hello Project
+
+Bu proje, Web Tasarımı ve Programlama dersi kapsamında gerçekleştirilen ilk laboratuvar çalışmasıdır.
+Temel amacı, modern web geliştirme araçları olan Vite, React ve TypeScript ekosistemine giriş yapmaktır.
+
+📝 Hakkında
+Bu proje, modern web geliştirme araçları kullanılarak oluşturulmuş başlangıç seviyesinde bir React uygulamasıdır.
+
+⚛️ Kullanıcı arayüzü geliştirmek için React 18
+
+🔐 Tip güvenliği sağlamak için TypeScript
+
+⚡ Hızlı geliştirme ortamı için Vite kullanılmıştır.
+
+👤 Geliştirici
+
+Ad Soyad: Erhan Varğın
+Öğrenci No: 230541087
+
+🛠 Kullanılan Teknolojiler
+
+Teknoloji            	Açıklama
+
+React 18	        Kullanıcı arayüzü kütüphanesi
+TypeScript	      Statik tip kontrolü
+Vite	            Yeni nesil ön uç (frontend) araç zinciri
+NPM	               Paket yönetimi
