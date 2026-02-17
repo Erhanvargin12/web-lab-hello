@@ -5,6 +5,7 @@ function App() {
       <h2>LAB-1</h2>
       <p>Ad Soyad: Erhan Varğın</p>
       <p>Öğrenci No: 21658484356</p>
+      <p>Hobilerim: futbol,yüzme</p>
     </div>
   );
 }
