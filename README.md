@@ -1,6 +1,6 @@
 Web LAB-1: Hello Project
 
-Bu proje, Web Tasarımı ve Programlama dersi kapsamında gerçekleştirilen ilk laboratuvar çalışmasıdır.
+Bu proje, Web Tasarımı ve Programlama dersi kapsamında gerçekleştirilen  laboratuvar çalışmasıdır.
 Temel amacı, modern web geliştirme araçları olan Vite, React ve TypeScript ekosistemine giriş yapmaktır.
 
 📝 Hakkında
