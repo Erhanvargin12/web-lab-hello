@@ -11,6 +11,9 @@ Bu proje, modern web geliştirme araçları kullanılarak oluşturulmuş başlan
 🔐 Tip güvenliği sağlamak için TypeScript
 
 ⚡ Hızlı geliştirme ortamı için Vite kullanılmıştır.
+EKRAN GÖRÜNTÜSÜ
+<img width="1918" height="917" alt="image" src="https://github.com/user-attachments/assets/1e1b0535-3964-437a-bf31-bc5f586e9dfa" />
+
 
 👤 Geliştirici
 
