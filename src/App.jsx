@@ -6,9 +6,9 @@ function App() {
       {/* 1. Klavye kullanıcıları için navigasyonu atlama bağlantısı */}
       <a href="#main-content" className="skip-link">Ana içeriğe atla</a>
 
-      {/* 2. Semantik Header ve Navigasyon */}
+      {/* 2. Semantik Header ve Navigasyon - Flexbox ile hizalanır */}
       <header>
-        <h1>Yazılım Geliştirici Portfolyosu</h1> 
+        <div className="site-title">Yazılım Portfolyosu</div> 
         <nav aria-label="Ana navigasyon">
           <ul>
             <li><a href="#hakkimda">Hakkımda</a></li>
@@ -25,36 +25,73 @@ function App() {
         <section id="hakkimda">
           <h2>Hakkımda</h2>
           
-          {/* Semantik Görsel Alanı */}
-          <figure>
-            <img 
-              src="https://via.placeholder.com/150" 
-              alt="Fırat Üniversitesi yazılım mühendisliği öğrencisi profil fotoğrafı" 
-            />
-            <figcaption>Yazılım Mühendisi Adayı</figcaption>
-          </figure>
+          <div className="about-content">
+            {/* Semantik Görsel Alanı */}
+            <figure>
+              <img 
+                src="https://via.placeholder.com/200" 
+                alt="Fırat Üniversitesi yazılım mühendisliği öğrencisi profil fotoğrafı" 
+              />
+              <figcaption>Yazılım Mühendisi Adayı</figcaption>
+            </figure>
 
-          <p>Fırat Üniversitesi Yazılım Mühendisliği 3. sınıf öğrencisiyim. Modern web teknolojileri ve yazılım geliştirme süreçleri üzerine çalışmalar yürütüyorum.</p>
+            <div className="about-text">
+              <p>Fırat Üniversitesi Yazılım Mühendisliği 3. sınıf öğrencisiyim. Modern web teknolojileri ve yazılım geliştirme süreçleri üzerine çalışmalar yürütüyorum.</p>
+              
+              {/* Uygulama-5: Flexbox Beceri Etiketleri */}
+              <ul className="skill-tags" role="list" aria-label="Beceri etiketleri">
+                <li>React</li>
+                <li>TypeScript</li>
+                <li>JavaScript</li>
+                <li>CSS Grid/Flexbox</li>
+                <li>Git</li>
+                <li>Node.js</li>
+              </ul>
+            </div>
+          </div>
         </section>
 
-        {/* Projeler Bölümü - Article kullanımı */}
+        {/* Uygulama-6: Projeler Bölümü - Grid Yapısı */}
         <section id="projeler">
           <h2>Projelerim</h2>
           
-          <article>
-            <h3>Go Taksi</h3>
-            <p>React ve TypeScript tabanlı profesyonel taksi yönetim ve çağırma uygulaması.</p>
-          </article>
+          <div className="project-grid">
+            <article className="project-card">
+              <img src="https://via.placeholder.com/400x200" alt="Go Taksi uygulama ekran görüntüsü" />
+              <div className="project-info">
+                <h3>Go Taksi</h3>
+                <p>React ve TypeScript tabanlı profesyonel taksi yönetim ve çağırma uygulaması.</p>
+                <ul className="skill-tags">
+                  <li>React</li>
+                  <li>TypeScript</li>
+                </ul>
+              </div>
+            </article>
 
-          <article>
-            <h3>QR Menü</h3>
-            <p>Restoran ve kafeler için geliştirilmiş dijital menü sistemi.</p>
-          </article>
+            <article className="project-card">
+              <img src="https://via.placeholder.com/400x200" alt="QR Menü uygulama ekran görüntüsü" />
+              <div className="project-info">
+                <h3>QR Menü</h3>
+                <p>Restoran ve kafeler için geliştirilmiş dijital menü sistemi.</p>
+                <ul className="skill-tags">
+                  <li>JavaScript</li>
+                  <li>CSS Grid</li>
+                </ul>
+              </div>
+            </article>
 
-          <article>
-            <h3>Endemik Türler</h3>
-            <p>Nesli tehlike altındaki türlerin takibi için geliştirilen web projesi.</p>
-          </article>
+            <article className="project-card">
+              <img src="https://via.placeholder.com/400x200" alt="Endemik Türler uygulama ekran görüntüsü" />
+              <div className="project-info">
+                <h3>Endemik Türler</h3>
+                <p>Nesli tehlike altındaki türlerin takibi için geliştirilen web projesi.</p>
+                <ul className="skill-tags">
+                  <li>HTML5</li>
+                  <li>React</li>
+                </ul>
+              </div>
+            </article>
+          </div>
         </section>
 
         {/* 4. Erişilebilir İletişim Formu */}
@@ -111,7 +148,7 @@ function App() {
 
       {/* 5. Alt Bilgi Alanı */}
       <footer>
-        <p>&copy; 2026 Tüm hakları saklıdır.</p>
+        <p>&copy; 2026 Tüm hakları saklıdır. | Yazılım Tasarımı ve Programlama LAB-3</p>
       </footer>
     </>
   )
