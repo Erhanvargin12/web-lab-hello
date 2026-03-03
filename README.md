@@ -18,7 +18,7 @@ EKRAN GÖRÜNTÜSÜ
 <img width="1918" height="917" alt="image" src="https://github.com/user-attachments/assets/1e1b0535-3964-437a-bf31-bc5f586e9dfa" />
 
 
-👤 Geliştirici
+👤   Geliştirici
 
 Ad Soyad: Erhan Varğın
 Öğrenci No: 230541087
