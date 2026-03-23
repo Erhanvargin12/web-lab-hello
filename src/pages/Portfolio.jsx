@@ -12,7 +12,7 @@ export default function Portfolio() {
       <header className="sticky top-0 z-40 bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-700 transition-colors">
         <div className="max-w-6xl mx-auto px-4 py-3 flex flex-col sm:flex-row justify-between items-center gap-3">
           <h1 className="text-xl font-bold text-blue-800 dark:text-blue-300">
-            Ahmet Yilmaz
+            Erhan Varğın
           </h1>
           <nav aria-label="Ana navigasyon">
             <ul className="flex flex-wrap gap-2">
@@ -28,7 +28,7 @@ export default function Portfolio() {
         <section id="hakkimda" className="py-16 px-4">
           <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-8">
             <figure className="shrink-0">
-              <img src="https://via.placeholder.com/160" alt="Ahmet Yilmaz vesikalik fotografi" className="w-40 h-40 rounded-full object-cover shadow-lg" />
+              <img src="https://via.placeholder.com/160" alt="Erhan Varğın vesikalik fotografi" className="w-40 h-40 rounded-full object-cover shadow-lg" />
             </figure>
             <div>
               <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4 text-center md:text-left">
@@ -52,14 +52,14 @@ export default function Portfolio() {
               Projelerim
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              <Card variant="elevated" title="E-Ticaret" image="https://via.placeholder.com/400x200" imageAlt="E-Ticaret anasayfa gorunumu">
-                React ve Node.js ile tam kapsamli uygulama.
+              <Card variant="elevated" title="Go Taksi Projesi" image="https://via.placeholder.com/400x200" imageAlt="Go Taksi Projesi gorunumu">
+                Yolcu ve sürücü etkileşimini sağlayan kapsamlı taksi uygulaması.
               </Card>
-              <Card variant="elevated" title="Blog Uygulamasi" image="https://via.placeholder.com/400x200" imageAlt="Blog Uygulamasi">
-                Kisisel blog platformu. Markdown destekli yazi editoru.
+              <Card variant="elevated" title="Stok Takip" image="https://via.placeholder.com/400x200" imageAlt="Stok Takip">
+                Mağaza ve depo ürün yönetimini sağlayan modern stok takip sistemi.
               </Card>
-              <Card variant="elevated" title="Hava Durumu" image="https://via.placeholder.com/400x200" imageAlt="Hava durumu">
-                OpenWeather API ile anlik hava durumu bilgisi.
+              <Card variant="elevated" title="Endemik Türler Projesi" image="https://via.placeholder.com/400x200" imageAlt="Endemik Türler Projesi">
+                Türkiye'deki endemik bitki ve hayvan türlerinin bilgi platformu.
               </Card>
             </div>
           </div>
@@ -88,7 +88,7 @@ export default function Portfolio() {
       </main>
 
       <footer className="bg-gray-100 dark:bg-gray-900 border-t border-gray-200 dark:border-gray-700 text-center py-6 px-4 text-gray-500 dark:text-gray-400 text-sm transition-colors">
-        <p>&copy; 2025 Ahmet Yilmaz. Tum haklari saklidir.</p>
+        <p>&copy; 2025 Erhan Varğın. Tum haklari saklidir.</p>
       </footer>
     </div>
   );
