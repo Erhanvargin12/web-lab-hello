@@ -46,7 +46,7 @@ export default function App() {
     <div className="min-h-screen bg-gray-50 dark:bg-gray-950 p-4 md:p-8">
       <div className="max-w-6xl mx-auto">
         <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-8">
-          Projelerim
+          Erhan Varğın - Projelerim
         </h1>
 
         {/* HATA DURUMU */}
