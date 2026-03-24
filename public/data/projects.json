@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "GoTaksi Güvenlik Modülü",
+    "description": "Kullanıcılar için güvenli OTP ve indirim kodları üreten, veri şifreleme sağlayan Python modülü.",
+    "tech": ["Python", "Cryptography", "Security"],
+    "year": 2025,
+    "category": "backend",
+    "featured": true,
+    "image": "/images/gotaksi.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Stok Takip Sistemi",
+    "description": "Depo ve envanter yönetimini kolaylaştıran, anlık stok takibi sağlayan kapsamlı sistem.",
+    "tech": ["React", "Node.js", "Database"],
+    "year": 2024,
+    "category": "fullstack",
+    "featured": true,
+    "image": "/images/stok.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Endemik Türler Bilgi Sistemi",
+    "description": "AnimaPedia ile hayvanlara ve özelliklerine dair bilgilerin sunulduğu flip-card özellikli frontend projesi.",
+    "tech": ["HTML", "CSS", "JavaScript", "React"],
+    "year": 2026,
+    "category": "frontend",
+    "featured": false,
+    "image": "/images/endemik.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Yapay Zeka Destekli Sağlık Asistanı",
+    "description": "Google Gemini AI ile gıdaların fotoğrafından analiz yapabilen full-stack Flutter ve Web uygulaması.",
+    "tech": ["Flutter", "Gemini AI", "Web"],
+    "year": 2026,
+    "category": "fullstack",
+    "featured": true,
+    "image": "/images/aihealth.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Arduino Uno Devre ve LED Sistemi",
+    "description": "8 LED ve pull-down dirençli buton içeren, Tinkercad üzerinde tasarlanmış donanım/devre projesi.",
+    "tech": ["Arduino", "Tinkercad", "C++"],
+    "year": 2025,
+    "category": "backend",
+    "featured": false,
+    "image": "/images/arduino.jpg"
+  }
+]
