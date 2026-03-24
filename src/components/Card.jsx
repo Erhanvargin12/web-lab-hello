@@ -1,9 +1,9 @@
 export default function Card({
-  title,
+  title = "",
   children,
-  image,
-  imageAlt,
-  footer,
+  image = "",
+  imageAlt = "",
+  footer = null,
   variant = "elevated",
   className = "",
 }) {

@@ -1,8 +1,8 @@
 export default function Input({
-  label,
+  label = null,
   type = "text",
-  error,
-  helpText,
+  error = null,
+  helpText = null,
   id,
   className = "",
   ...props

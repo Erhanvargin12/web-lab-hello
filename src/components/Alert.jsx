@@ -3,7 +3,7 @@ export default function Alert({
   variant = "info",
   title,
   dismissible = false,
-  onDismiss,
+  onDismiss = () => {},
   className = "",
 }) {
   const variants = {
