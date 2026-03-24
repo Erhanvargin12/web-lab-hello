@@ -17,6 +17,11 @@ export default function App() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
+  // --- TEMA CEVIRICI (DARK MODE) ---
+  const toggleDarkMode = () => {
+    document.documentElement.classList.toggle('dark');
+  };
+
   // --- VERi CEKME ---
   useEffect(() => {
     async function load() {
@@ -43,7 +48,16 @@ export default function App() {
 
   // --- UI ---
   return (
-    <div className="min-h-screen bg-gray-50 dark:bg-gray-950 p-4 md:p-8">
+    <div className="min-h-screen bg-gray-50 dark:bg-gray-950 p-4 md:p-8 transition-colors">
+      <button
+        onClick={toggleDarkMode}
+        className="fixed top-4 right-4 z-50 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 p-2 rounded-full shadow-lg hover:scale-110 transition-transform"
+        aria-label="Tema degistir"
+      >
+        <span className="dark:hidden">&#9790;</span>
+        <span className="hidden dark:inline">&#9728;</span>
+      </button>
+
       <div className="max-w-6xl mx-auto">
         <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-8">
           Erhan Varğın - Projelerim
